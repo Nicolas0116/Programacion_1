@@ -9,7 +9,7 @@ int main() {
 	int longitud;
 	
 		printf("Adivina la palabra secreta\n\nTienes 3 intentos.\nToda la palabra es en minusculas.\n");
-		longitud = sizeof(palabra);
+		longitud = strlen(palabra);
 		printf("La palabra es de %d caracteres.\n\n",longitud);
 		
 		intentos = intentos + 1;
