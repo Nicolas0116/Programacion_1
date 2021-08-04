@@ -39,6 +39,7 @@ int main() {
 			printf("2.Buscar contacto.\n");
 			printf("3.Ver todos los contactos.\n");
 			printf("4.Salir.\n\n");
+			printf("Nota: Para modificar o eliminar un contacto primero debe buscarlo.\n\n");
 			
 			printf("Accion: ");
 			scanf("%d",&opcion);
